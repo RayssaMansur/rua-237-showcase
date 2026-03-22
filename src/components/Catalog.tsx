@@ -4,6 +4,7 @@ import boxImg from "@/assets/box.png";
 import swissHeatImg from "@/assets/swiss-heat-bolinha.png";
 
 import coxinhaImg from "@/assets/coxinha.png";
+import coxinhaSpicyImg from "@/assets/coxinha-spicy.png";
 import paoImg from "@/assets/pao-de-queijo.png";
 import empadaImg from "@/assets/empada.png";
 import brigadeiroImg from "@/assets/brigadeiro.png";
@@ -22,7 +23,7 @@ const imageMap: Record<string, string> = {
   "empada-237-ltd": empadaImg,
   "pao-237-ltd": paoImg,
   "bacalhau-drop-ltd": acaiImg,
-  "coxinha-spicy": coxinhaImg,
+  "coxinha-spicy": coxinhaSpicyImg,
   "kibe-cheese": brigadeiroImg,
   "urban-pizza": limonadaImg,
 };
