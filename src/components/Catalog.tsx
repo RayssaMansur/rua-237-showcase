@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { useLanguage } from "@/contexts/LanguageContext";
+import boxImg from "@/assets/box.png";
 
 import coxinhaImg from "@/assets/coxinha.png";
 import paoImg from "@/assets/pao-de-queijo.png";
@@ -16,7 +17,7 @@ const imageMap: Record<string, string> = {
   "empada-237": empadaImg,
   "pao-237": paoImg,
   "bacalhau-drop": acaiImg,
-  "237-feast": coxinhaImg,
+  "237-feast": boxImg,
 };
 
 const Catalog = () => {
