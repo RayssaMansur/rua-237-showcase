@@ -7,13 +7,13 @@ import coxinhaImg from "@/assets/coxinha.png";
 import coxinhaSpicyImg from "@/assets/coxinha-spicy.png";
 import paoImg from "@/assets/pao-de-queijo.png";
 import empadaImg from "@/assets/empada.png";
-import brigadeiroImg from "@/assets/brigadeiro.png";
+import kibeCheeseImg from "@/assets/kibe-cheese.png";
 import acaiImg from "@/assets/acai.png";
 import limonadaImg from "@/assets/limonada.png";
 
 const imageMap: Record<string, string> = {
   "coxinha-237": coxinhaImg,
-  "urban-kibe": brigadeiroImg,
+  "urban-kibe": kibeCheeseImg,
   "swiss-heat-bolinha": swissHeatImg,
   "rua-rissois": limonadaImg,
   "empada-237": empadaImg,
@@ -24,7 +24,7 @@ const imageMap: Record<string, string> = {
   "pao-237-ltd": paoImg,
   "bacalhau-drop-ltd": acaiImg,
   "coxinha-spicy": coxinhaSpicyImg,
-  "kibe-cheese": brigadeiroImg,
+  "kibe-cheese": kibeCheeseImg,
   "urban-pizza": limonadaImg,
 };
 
