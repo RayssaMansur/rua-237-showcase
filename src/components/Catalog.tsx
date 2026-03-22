@@ -1,12 +1,12 @@
 import { useState } from "react";
 import { useLanguage } from "@/contexts/LanguageContext";
 
-import coxinhaImg from "@/assets/coxinha.jpg";
-import paoImg from "@/assets/pao-de-queijo.jpg";
-import empadaImg from "@/assets/empada.jpg";
-import brigadeiroImg from "@/assets/brigadeiro.jpg";
-import acaiImg from "@/assets/acai.jpg";
-import limonadaImg from "@/assets/limonada.jpg";
+import coxinhaImg from "@/assets/coxinha.png";
+import paoImg from "@/assets/pao-de-queijo.png";
+import empadaImg from "@/assets/empada.png";
+import brigadeiroImg from "@/assets/brigadeiro.png";
+import acaiImg from "@/assets/acai.png";
+import limonadaImg from "@/assets/limonada.png";
 
 const imageMap: Record<string, string> = {
   "coxinha-237": coxinhaImg,
