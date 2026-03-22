@@ -1,6 +1,6 @@
 import { useLanguage } from "@/contexts/LanguageContext";
 import empadaImg from "@/assets/empada.png";
-import paoImg from "@/assets/Pão_237-2.png";
+import paoImg from "@/assets/pao-de-queijo.png";
 import acaiImg from "@/assets/acai.png";
 
 const limitedImageMap: Record<string, string> = {
