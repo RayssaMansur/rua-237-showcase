@@ -17,7 +17,7 @@ const imageMap: Record<string, string> = {
   "empada-237": empadaImg,
   "pao-237": paoImg,
   "bacalhau-drop": acaiImg,
-  "237-feast": coxinhaImg,
+  "237-feast": boxImg,
 };
 
 const Catalog = () => {
