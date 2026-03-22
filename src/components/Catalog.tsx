@@ -4,6 +4,7 @@ import boxImg from "@/assets/box.png";
 import swissHeatImg from "@/assets/swiss-heat-bolinha.png";
 
 import coxinhaImg from "@/assets/coxinha.png";
+import urbanKibeImg from "@/assets/urban-kibe.png";
 import coxinhaSpicyImg from "@/assets/coxinha-spicy.png";
 import paoImg from "@/assets/pao-de-queijo.png";
 import empadaImg from "@/assets/empada.png";
@@ -14,7 +15,7 @@ import urbanPizzaImg from "@/assets/urban-pizza.png";
 
 const imageMap: Record<string, string> = {
   "coxinha-237": coxinhaImg,
-  "urban-kibe": kibeCheeseImg,
+  "urban-kibe": urbanKibeImg,
   "swiss-heat-bolinha": swissHeatImg,
   "rua-rissois": limonadaImg,
   "empada-237": empadaImg,
