@@ -15,7 +15,7 @@ import urbanPizzaImg from "@/assets/urban-pizza.png";
 
 const imageMap: Record<string, string> = {
   "coxinha-237": coxinhaImg,
-  "urban-kibe": kibeCheeseImg,
+  "urban-kibe": urbanKibeImg,
   "swiss-heat-bolinha": swissHeatImg,
   "rua-rissois": limonadaImg,
   "empada-237": empadaImg,
