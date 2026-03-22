@@ -25,7 +25,7 @@ const imageMap: Record<string, string> = {
   "bacalhau-drop-ltd": acaiImg,
   "coxinha-spicy": coxinhaSpicyImg,
   "kibe-cheese": kibeCheeseImg,
-  "urban-pizza": limonadaImg,
+  "urban-pizza": urbanPizzaImg,
 };
 
 const LIMITED_DROPS_EXCLUSIVE = ["coxinha-spicy", "kibe-cheese", "urban-pizza"];
