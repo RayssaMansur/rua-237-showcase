@@ -24,7 +24,7 @@ const IndexContent = () => {
         onContactClick={() => setContactOpen(true)}
         onDiscoverClick={scrollToMenu}
       />
-      <LimitedDropsBanner />
+      
       <About />
       <Catalog />
       <CallToAction onContactClick={() => setContactOpen(true)} />
