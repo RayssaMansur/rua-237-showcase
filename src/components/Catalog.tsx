@@ -4,6 +4,7 @@ import boxImg from "@/assets/box.png";
 import swissHeatImg from "@/assets/swiss-heat-bolinha.png";
 
 import coxinhaImg from "@/assets/coxinha.png";
+import urbanKibeImg from "@/assets/urban-kibe.png";
 import coxinhaSpicyImg from "@/assets/coxinha-spicy.png";
 import paoImg from "@/assets/pao-de-queijo.png";
 import empadaImg from "@/assets/empada.png";
