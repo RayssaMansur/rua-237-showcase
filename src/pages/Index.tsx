@@ -1,16 +1,41 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import { useState, useRef } from "react";
+import { LanguageProvider } from "@/contexts/LanguageContext";
+import Header from "@/components/Header";
+import Hero from "@/components/Hero";
+import About from "@/components/About";
+import Catalog from "@/components/Catalog";
+import CallToAction from "@/components/CallToAction";
+import ContactModal from "@/components/ContactModal";
+import Footer from "@/components/Footer";
 
-// IMPORTANT: Fully REPLACE this with your own code
-const PlaceholderIndex = () => {
-  // PLACEHOLDER: Replace this entire return statement with the user's app.
-  // The inline background color is intentionally not part of the design system.
+const IndexContent = () => {
+  const [contactOpen, setContactOpen] = useState(false);
+  const menuRef = useRef<HTMLDivElement>(null);
+
+  const scrollToMenu = () => {
+    document.getElementById("menu")?.scrollIntoView({ behavior: "smooth" });
+  };
+
   return (
-    <div className="flex min-h-screen items-center justify-center" style={{ backgroundColor: '#fcfbf8' }}>
-      <img data-lovable-blank-page-placeholder="REMOVE_THIS" src="/placeholder.svg" alt="Your app will live here!" />
+    <div className="min-h-screen bg-background">
+      <Header onContactClick={() => setContactOpen(true)} />
+      <Hero
+        onContactClick={() => setContactOpen(true)}
+        onDiscoverClick={scrollToMenu}
+      />
+      <About />
+      <Catalog />
+      <CallToAction onContactClick={() => setContactOpen(true)} />
+      <Footer />
+      <ContactModal isOpen={contactOpen} onClose={() => setContactOpen(false)} />
     </div>
   );
 };
 
-const Index = PlaceholderIndex;
+const Index = () => (
+  <LanguageProvider>
+    <IndexContent />
+  </LanguageProvider>
+);
 
 export default Index;
