@@ -13,7 +13,7 @@ import limonadaImg from "@/assets/limonada.png";
 const imageMap: Record<string, string> = {
   "coxinha-237": coxinhaImg,
   "urban-kibe": brigadeiroImg,
-  "swiss-heat-bolinha": paoImg,
+  "swiss-heat-bolinha": swissHeatImg,
   "rua-rissois": limonadaImg,
   "empada-237": empadaImg,
   "pao-237": paoImg,
