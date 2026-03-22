@@ -19,6 +19,12 @@ const imageMap: Record<string, string> = {
   "pao-237": paoImg,
   "bacalhau-drop": acaiImg,
   "237-feast": boxImg,
+  "empada-237-ltd": empadaImg,
+  "pao-237-ltd": paoImg,
+  "bacalhau-drop-ltd": acaiImg,
+  "coxinha-spicy": coxinhaImg,
+  "kibe-cheese": brigadeiroImg,
+  "urban-pizza": limonadaImg,
 };
 
 const LIMITED_DROPS_EXCLUSIVE = ["coxinha-spicy", "kibe-cheese", "urban-pizza"];
