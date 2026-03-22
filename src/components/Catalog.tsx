@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { useLanguage } from "@/contexts/LanguageContext";
+import boxImg from "@/assets/box.png";
 
 import coxinhaImg from "@/assets/coxinha.png";
 import paoImg from "@/assets/pao-de-queijo.png";
