@@ -19,13 +19,10 @@ const Hero = ({
       <div className="absolute inset-0 bg-background/75" />
 
       <div className="relative z-10 text-center px-6 max-w-3xl mx-auto animate-fade-in">
-        <h1 className="font-display text-5xl md:text-7xl font-bold tracking-tight text-foreground mb-4">
-          Rua <span className="text-gradient">237</span>
-        </h1>
-        <p className="text-primary font-body text-lg md:text-xl font-medium tracking-widest uppercase mb-6">
+        <h1 className="font-display text-5xl md:text-7xl font-bold tracking-tight text-foreground mb-6">
           {t.brand.slogan}
-        </p>
-        <p className="text-muted-foreground font-body text-base md:text-lg max-w-xl mx-auto mb-10">
+        </h1>
+        <p className="text-muted-foreground font-body text-sm md:text-base tracking-[0.35em] uppercase mb-12">
           {t.brand.heroText}
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
