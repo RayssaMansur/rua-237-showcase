@@ -2,8 +2,10 @@ import { useState, useRef } from "react";
 import { LanguageProvider } from "@/contexts/LanguageContext";
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
+import LimitedDropsBanner from "@/components/LimitedDropsBanner";
 import About from "@/components/About";
 import Catalog from "@/components/Catalog";
+import LimitedDrops from "@/components/LimitedDrops";
 import CallToAction from "@/components/CallToAction";
 import ContactModal from "@/components/ContactModal";
 import Footer from "@/components/Footer";
@@ -23,8 +25,10 @@ const IndexContent = () => {
         onContactClick={() => setContactOpen(true)}
         onDiscoverClick={scrollToMenu}
       />
+      <LimitedDropsBanner />
       <About />
       <Catalog />
+      <LimitedDrops />
       <CallToAction onContactClick={() => setContactOpen(true)} />
       <Footer />
       <ContactModal isOpen={contactOpen} onClose={() => setContactOpen(false)} />

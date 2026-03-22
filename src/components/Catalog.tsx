@@ -32,6 +32,9 @@ const Catalog = () => {
   return (
     <section id="menu" className="section-padding">
       <div className="max-w-6xl mx-auto">
+        <p className="text-primary font-body text-xs font-semibold tracking-[0.35em] uppercase text-center mb-3">
+          {t.ui.signatureSeriesTitle}
+        </p>
         <h2 className="font-display text-3xl md:text-4xl font-semibold text-foreground text-center mb-10">
           {t.ui.catalogTitle}
         </h2>
