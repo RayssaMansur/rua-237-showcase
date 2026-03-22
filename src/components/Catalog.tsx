@@ -7,7 +7,7 @@ import coxinhaImg from "@/assets/coxinha.png";
 import coxinhaSpicyImg from "@/assets/coxinha-spicy.png";
 import paoImg from "@/assets/pao-de-queijo.png";
 import empadaImg from "@/assets/empada.png";
-import kibeCheeseImg from "@/assets/kibe-cheese.png";
+import kibeCheeseImg from "@/assets/kibe-cheese-v2.png";
 import acaiImg from "@/assets/acai.png";
 import limonadaImg from "@/assets/limonada.png";
 import urbanPizzaImg from "@/assets/urban-pizza.png";
