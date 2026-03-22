@@ -48,9 +48,9 @@ const data: Record<Language, SiteData> = {
     brand: {
       slogan: "Brazilian Bites, Elevated.",
       heroText: "Urban. Structured. Precise.",
-      aboutTitle: "The Concept",
-      aboutText: "Rua 237 redefines Brazilian street food through structure and precision.\n\nBuilt on strong foundations.\nRefined for the modern street.\n\nBrazilian bites, elevated.",
-      aboutHighlight: "Precision. Structure. Heat.",
+      aboutTitle: "Le Concept",
+      aboutText: "Rua 237 redéfinit la street food brésilienne par la structure et la précision.\n\nBâti sur des bases solides.\nAffiné pour la rue moderne.\n\nBrazilian bites, elevated.",
+      aboutHighlight: "Précision. Structure. Intensité.",
     },
     ui: {
       discover: "Explore the Menu",
