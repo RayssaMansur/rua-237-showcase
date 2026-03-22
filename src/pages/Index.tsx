@@ -32,10 +32,12 @@ const IndexContent = () => {
   );
 };
 
-const Index = () => (
-  <LanguageProvider>
-    <IndexContent />
-  </LanguageProvider>
-);
+const Index = () => {
+  return (
+    <LanguageProvider>
+      <IndexContent />
+    </LanguageProvider>
+  );
+};
 
 export default Index;
