@@ -27,7 +27,6 @@ const IndexContent = () => {
       <LimitedDropsBanner />
       <About />
       <Catalog />
-      <LimitedDrops />
       <CallToAction onContactClick={() => setContactOpen(true)} />
       <Footer />
       <ContactModal isOpen={contactOpen} onClose={() => setContactOpen(false)} />

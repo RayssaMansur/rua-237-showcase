@@ -21,13 +21,15 @@ const imageMap: Record<string, string> = {
   "237-feast": boxImg,
 };
 
+const LIMITED_DROPS_EXCLUSIVE = ["coxinha-spicy", "kibe-cheese", "urban-pizza"];
+
 const Catalog = () => {
   const { t } = useLanguage();
   const [activeCategory, setActiveCategory] = useState<string | null>(null);
 
   const filtered = activeCategory
     ? t.products.filter((p) => p.category === activeCategory)
-    : t.products;
+    : t.products.filter((p) => !LIMITED_DROPS_EXCLUSIVE.includes(p.id));
 
   return (
     <section id="menu" className="section-padding">
