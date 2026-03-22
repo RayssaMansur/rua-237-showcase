@@ -24,7 +24,7 @@ const imageMap: Record<string, string> = {
   "pao-237-ltd": paoImg,
   "bacalhau-drop-ltd": acaiImg,
   "coxinha-spicy": coxinhaSpicyImg,
-  "kibe-cheese": brigadeiroImg,
+  "kibe-cheese": kibeCheeseImg,
   "urban-pizza": limonadaImg,
 };
 
