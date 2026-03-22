@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { useLanguage } from "@/contexts/LanguageContext";
 import boxImg from "@/assets/box.png";
+import swissHeatImg from "@/assets/swiss-heat-bolinha.png";
 
 import coxinhaImg from "@/assets/coxinha.png";
 import paoImg from "@/assets/pao-de-queijo.png";
@@ -12,7 +13,7 @@ import limonadaImg from "@/assets/limonada.png";
 const imageMap: Record<string, string> = {
   "coxinha-237": coxinhaImg,
   "urban-kibe": brigadeiroImg,
-  "swiss-heat-bolinha": paoImg,
+  "swiss-heat-bolinha": swissHeatImg,
   "rua-rissois": limonadaImg,
   "empada-237": empadaImg,
   "pao-237": paoImg,
