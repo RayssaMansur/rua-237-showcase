@@ -10,6 +10,7 @@ import empadaImg from "@/assets/empada.png";
 import kibeCheeseImg from "@/assets/kibe-cheese.png";
 import acaiImg from "@/assets/acai.png";
 import limonadaImg from "@/assets/limonada.png";
+import urbanPizzaImg from "@/assets/urban-pizza.png";
 
 const imageMap: Record<string, string> = {
   "coxinha-237": coxinhaImg,
@@ -25,7 +26,7 @@ const imageMap: Record<string, string> = {
   "bacalhau-drop-ltd": acaiImg,
   "coxinha-spicy": coxinhaSpicyImg,
   "kibe-cheese": kibeCheeseImg,
-  "urban-pizza": limonadaImg,
+  "urban-pizza": urbanPizzaImg,
 };
 
 const LIMITED_DROPS_EXCLUSIVE = ["coxinha-spicy", "kibe-cheese", "urban-pizza"];
