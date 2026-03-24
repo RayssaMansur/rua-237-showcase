@@ -76,7 +76,7 @@ const data: Record<Language, SiteData> = {
     categories: ["Signature", "Classiques", "Event", "Limited Drops"],
     products: [
       { id: "coxinha-237", name: "THE 237 COXINHA", description: "Crisp shell. Slow-cooked chicken.", image: "", category: "Signature" },
-      { id: "swiss-heat-bolinha", name: "Swiss Heat Bolinha", description: "Brazilian base. Swiss melt.", image: "", category: "Signature" },
+      { id: "swiss-heat-bolinha", name: "Swiss Heat Bolinha", description: "Bold flavor. Perfect crunch.", image: "", category: "Signature" },
       { id: "urban-kibe", name: "Urban Kibe", description: "Firm texture. Controlled spice.", image: "", category: "Signature" },
       { id: "rua-rissois", name: "Rua Rissois", description: "Swiss meat. Street crisp format.", image: "", category: "Signature" },
       { id: "pao-237", name: "Pão 237", description: "Traditional cheese bread.", image: "", category: "Classiques" },
@@ -121,7 +121,7 @@ const data: Record<Language, SiteData> = {
     categories: ["Signature", "Classics", "Event", "Limited Drops"],
     products: [
       { id: "coxinha-237", name: "THE 237 COXINHA", description: "Crisp shell. Slow-cooked chicken.", image: "", category: "Signature" },
-      { id: "swiss-heat-bolinha", name: "Swiss Heat Bolinha", description: "Brazilian base. Swiss melt.", image: "", category: "Signature" },
+      { id: "swiss-heat-bolinha", name: "Swiss Heat Bolinha", description: "Bold flavor. Perfect crunch.", image: "", category: "Signature" },
       { id: "urban-kibe", name: "Urban Kibe", description: "Firm texture. Controlled spice.", image: "", category: "Signature" },
       { id: "rua-rissois", name: "Rua Rissois", description: "Swiss meat. Street crisp format.", image: "", category: "Signature" },
       { id: "pao-237", name: "Pão 237", description: "Traditional cheese bread.", image: "", category: "Classics" },
