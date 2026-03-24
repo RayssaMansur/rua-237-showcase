@@ -1,5 +1,6 @@
 import { useLanguage } from "@/contexts/LanguageContext";
 import type { Language } from "@/data/content";
+import { Link } from "react-router-dom";
 
 const langs: { code: Language; label: string }[] = [
   { code: "fr", label: "FR" },
@@ -18,6 +19,12 @@ const Header = ({ onContactClick }: { onContactClick: () => void }) => {
         </a>
 
         <div className="flex items-center gap-4">
+          <Link
+            to="/about"
+            className="hidden sm:inline-flex text-sm font-body text-muted-foreground hover:text-foreground transition-colors"
+          >
+            {t.ui.about}
+          </Link>
           <div className="flex items-center gap-1 text-sm">
             {langs.map((l) => (
               <button
