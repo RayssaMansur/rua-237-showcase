@@ -69,10 +69,4 @@ const AboutContent = () => {
   );
 };
 
-const AboutPage = () => (
-  <LanguageProvider>
-    <AboutContent />
-  </LanguageProvider>
-);
-
-export default AboutPage;
+export default AboutContent;

@@ -34,12 +34,4 @@ const IndexContent = () => {
   );
 };
 
-const Index = () => {
-  return (
-    <LanguageProvider>
-      <IndexContent />
-    </LanguageProvider>
-  );
-};
-
-export default Index;
+export default IndexContent;
