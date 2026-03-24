@@ -75,7 +75,7 @@ const data: Record<Language, SiteData> = {
     },
     categories: ["Signature", "Classiques", "Event", "Limited Drops"],
     products: [
-      { id: "coxinha-237", name: "237 Coxinha", description: "Crisp shell. Slow-cooked chicken.", image: "", category: "Signature" },
+      { id: "coxinha-237", name: "THE 237 COXINHA", description: "Crisp shell. Slow-cooked chicken.", image: "", category: "Signature" },
       { id: "swiss-heat-bolinha", name: "Swiss Heat Bolinha", description: "Brazilian base. Swiss melt.", image: "", category: "Signature" },
       { id: "urban-kibe", name: "Urban Kibe", description: "Firm texture. Controlled spice.", image: "", category: "Signature" },
       { id: "rua-rissois", name: "Rua Rissois", description: "Swiss meat. Street crisp format.", image: "", category: "Signature" },
@@ -120,7 +120,7 @@ const data: Record<Language, SiteData> = {
     },
     categories: ["Signature", "Classics", "Event", "Limited Drops"],
     products: [
-      { id: "coxinha-237", name: "237 Coxinha", description: "Crisp shell. Slow-cooked chicken.", image: "", category: "Signature" },
+      { id: "coxinha-237", name: "THE 237 COXINHA", description: "Crisp shell. Slow-cooked chicken.", image: "", category: "Signature" },
       { id: "swiss-heat-bolinha", name: "Swiss Heat Bolinha", description: "Brazilian base. Swiss melt.", image: "", category: "Signature" },
       { id: "urban-kibe", name: "Urban Kibe", description: "Firm texture. Controlled spice.", image: "", category: "Signature" },
       { id: "rua-rissois", name: "Rua Rissois", description: "Swiss meat. Street crisp format.", image: "", category: "Signature" },
@@ -165,7 +165,7 @@ const data: Record<Language, SiteData> = {
     },
     categories: ["Signature", "Clássicos", "Evento", "Limited Drops"],
     products: [
-      { id: "coxinha-237", name: "237 Coxinha", description: "Casca crocante. Frango desfiado.", image: "", category: "Signature" },
+      { id: "coxinha-237", name: "THE 237 COXINHA", description: "Casca crocante. Frango desfiado.", image: "", category: "Signature" },
       { id: "swiss-heat-bolinha", name: "Swiss Heat Bolinha", description: "Base brasileira. Derretido suíço.", image: "", category: "Signature" },
       { id: "urban-kibe", name: "Urban Kibe", description: "Textura firme. Especiarias controladas.", image: "", category: "Signature" },
       { id: "rua-rissois", name: "Rua Rissois", description: "Carne suíça. Formato crocante de rua.", image: "", category: "Signature" },
