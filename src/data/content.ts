@@ -49,7 +49,7 @@ const data: Record<Language, SiteData> = {
       slogan: "Brazilian Street Food, Elevated.",
       heroText: "Urban. Structured. Precise.",
       aboutTitle: "Le Concept",
-      aboutText: "Rua 237 redéfinit la street food brésilienne par la structure et la précision.\n\nBâti sur des bases solides.\nAffiné pour la rue moderne.\n\nBrazilian bites, elevated.",
+      aboutText: "Rua 237 redéfinit la street food brésilienne par la structure et la précision.\n\nBâti sur des bases solides.\nAffiné pour la rue moderne.\n\nBrazilian street food, elevated.",
       aboutHighlight: "Précision. Structure. Intensité.",
     },
     ui: {
@@ -94,7 +94,7 @@ const data: Record<Language, SiteData> = {
       slogan: "Brazilian Street Food, Elevated.",
       heroText: "Urban. Structured. Precise.",
       aboutTitle: "The Concept",
-      aboutText: "Rua 237 redefines Brazilian street food through structure and precision.\n\nBuilt on strong foundations.\nRefined for the modern street.\n\nBrazilian bites, elevated.",
+      aboutText: "Rua 237 redefines Brazilian street food through structure and precision.\n\nBuilt on strong foundations.\nRefined for the modern street.\n\nBrazilian street food, elevated.",
       aboutHighlight: "Precision. Structure. Heat.",
     },
     ui: {
@@ -139,7 +139,7 @@ const data: Record<Language, SiteData> = {
       slogan: "Brazilian Street Food, Elevated.",
       heroText: "Urban. Structured. Precise.",
       aboutTitle: "O Conceito",
-      aboutText: "Rua 237 redefine a comida de rua brasileira com estrutura e precis\u00e3o.\n\nConstru\u00eddo sobre bases s\u00f3lidas.\nRefinado para a rua moderna.\n\nBrazilian bites, elevated.",
+      aboutText: "Rua 237 redefine a comida de rua brasileira com estrutura e precis\u00e3o.\n\nConstru\u00eddo sobre bases s\u00f3lidas.\nRefinado para a rua moderna.\n\nBrazilian street food, elevated.",
       aboutHighlight: "Precis\u00e3o. Estrutura. Intensidade.",
     },
     ui: {
