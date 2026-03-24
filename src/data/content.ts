@@ -37,6 +37,14 @@ export interface SiteData {
     limitedDropsBanner: string;
     limitedDropsBannerText: string;
     signatureSeriesTitle: string;
+    backHome: string;
+    about: string;
+  };
+  about: {
+    originTitle: string;
+    originBlocks: string[];
+    designedForIntro: string;
+    designedForList: string[];
   };
   categories: string[];
   products: Product[];
@@ -72,6 +80,29 @@ const data: Record<Language, SiteData> = {
       limitedDropsBanner: "Limited Drops",
       limitedDropsBannerText: "Produit en séries limitées.\nSur pré-commande uniquement.",
       signatureSeriesTitle: "Signature Series",
+      backHome: "Retour",
+      about: "Notre Histoire",
+    },
+    about: {
+      originTitle: "Notre Origine",
+      originBlocks: [
+        "J'ai grandi à Rua Felicissimo, au Minas Gerais — un endroit où la nourriture était simple, généreuse, et toujours partagée.",
+        "Les snacks brésiliens comme la coxinha et le pão de queijo faisaient partie du quotidien.\nPas comme des plats spéciaux, mais comme des moments — rapides, chaleureux et sociaux.",
+        "RUA 237 vient de ce souvenir.",
+        "Aujourd'hui, RUA 237 réinterprète la street food brésilienne pour la scène urbaine suisse.",
+        "Nous combinons des recettes traditionnelles avec une approche structurée et moderne — en utilisant des ingrédients locaux de qualité et une préparation contrôlée.",
+        "Une fondation brésilienne.\nUn niveau de précision suisse.",
+        "La street food brésilienne est faite pour être partagée.",
+        "Petits, structurés et faciles à servir, nos produits s'intègrent naturellement aux moments de partage.",
+      ],
+      designedForIntro: "RUA 237 est conçu pour :",
+      designedForList: [
+        "Événements privés",
+        "Anniversaires et réunions à domicile",
+        "Événements d'entreprise",
+        "Apéritifs et réceptions",
+        "Festivals et événements publics",
+      ],
     },
     categories: ["Signature", "Classiques", "Event", "Limited Drops"],
     products: [
@@ -117,6 +148,29 @@ const data: Record<Language, SiteData> = {
       limitedDropsBanner: "Limited Drops",
       limitedDropsBannerText: "Produced in limited batches.\nPre-order only.",
       signatureSeriesTitle: "Signature Series",
+      backHome: "Back",
+      about: "Our Story",
+    },
+    about: {
+      originTitle: "Our Origin",
+      originBlocks: [
+        "I grew up on Rua Felicissimo, in Minas Gerais — a place where food was simple, generous, and always shared.",
+        "Brazilian snacks like coxinha and pão de queijo were part of everyday life.\nNot as special dishes, but as moments — quick, warm, and social.",
+        "RUA 237 comes from that memory.",
+        "Today, RUA 237 reinterprets Brazilian street food for the Swiss urban scene.",
+        "We combine traditional recipes with a structured, modern approach — using quality local ingredients and controlled preparation.",
+        "A Brazilian foundation.\nA Swiss level of precision.",
+        "Brazilian street food is made to be shared.",
+        "Small, structured, and easy to serve, our products naturally fit moments where people gather.",
+      ],
+      designedForIntro: "RUA 237 is designed for:",
+      designedForList: [
+        "Private events",
+        "Birthdays and home gatherings",
+        "Corporate events",
+        "Apéritifs and receptions",
+        "Festivals and public events",
+      ],
     },
     categories: ["Signature", "Classics", "Event", "Limited Drops"],
     products: [
@@ -139,8 +193,8 @@ const data: Record<Language, SiteData> = {
       slogan: "Brazilian Street Food, Elevated.",
       heroText: "Urban. Structured. Precise.",
       aboutTitle: "O Conceito",
-      aboutText: "Rua 237 redefine a comida de rua brasileira com estrutura e precis\u00e3o.\n\nConstru\u00eddo sobre bases s\u00f3lidas.\nRefinado para a rua moderna.\n\nBrazilian street food, elevated.",
-      aboutHighlight: "Precis\u00e3o. Estrutura. Intensidade.",
+      aboutText: "Rua 237 redefine a comida de rua brasileira com estrutura e precisão.\n\nConstruído sobre bases sólidas.\nRefinado para a rua moderna.\n\nBrazilian street food, elevated.",
+      aboutHighlight: "Precisão. Estrutura. Intensidade.",
     },
     ui: {
       discover: "Explore the Menu",
@@ -156,12 +210,35 @@ const data: Record<Language, SiteData> = {
       whatsapp: "Falar pelo WhatsApp",
       instagram: "Siga no Instagram",
       footerText: "\u00a9 2026 Rua 237. Todos os direitos reservados.",
-      catalogTitle: "O Card\u00e1pio",
+      catalogTitle: "O Cardápio",
       limitedDropsTitle: "Limited Drops",
-      limitedDropsText: "Dispon\u00edvel somente esta semana.\nQuantidades limitadas.",
+      limitedDropsText: "Disponível somente esta semana.\nQuantidades limitadas.",
       limitedDropsBanner: "Limited Drops",
       limitedDropsBannerText: "Produzido em lotes limitados.\nSomente sob encomenda.",
       signatureSeriesTitle: "Signature Series",
+      backHome: "Voltar",
+      about: "Nossa História",
+    },
+    about: {
+      originTitle: "Nossa Origem",
+      originBlocks: [
+        "Cresci na Rua Felicissimo, em Minas Gerais — um lugar onde a comida era simples, generosa e sempre compartilhada.",
+        "Salgados brasileiros como coxinha e pão de queijo faziam parte do dia a dia.\nNão como pratos especiais, mas como momentos — rápidos, quentes e sociais.",
+        "RUA 237 vem dessa memória.",
+        "Hoje, RUA 237 reinterpreta a comida de rua brasileira para a cena urbana suíça.",
+        "Combinamos receitas tradicionais com uma abordagem estruturada e moderna — usando ingredientes locais de qualidade e preparo controlado.",
+        "Uma base brasileira.\nUm nível suíço de precisão.",
+        "A comida de rua brasileira é feita para ser compartilhada.",
+        "Pequenos, estruturados e fáceis de servir, nossos produtos se encaixam naturalmente em momentos de encontro.",
+      ],
+      designedForIntro: "RUA 237 é projetado para:",
+      designedForList: [
+        "Eventos privados",
+        "Aniversários e encontros em casa",
+        "Eventos corporativos",
+        "Aperitivos e recepções",
+        "Festivais e eventos públicos",
+      ],
     },
     categories: ["Signature", "Clássicos", "Evento", "Limited Drops"],
     products: [
